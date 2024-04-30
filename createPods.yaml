@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: lachyr-wk6-pod
+  labels:
+    tier: frontend
+spec:
+  containers:
+    - image: lachyr/nodewebappwk6
+      name: lachyr-wk6-app
+      ports:
+        - containerPort: 3040
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always

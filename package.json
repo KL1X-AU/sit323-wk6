@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "name": "docker_sit323_wk5",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Lachlan Robinson",
+  "license": "ISC",
+  "description": "Dockerised calculator."
+}

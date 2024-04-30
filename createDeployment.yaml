@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lachyr-wk6-deployment
+  labels:
+    app: lachyr-wk6-app
+    tier: frontend
+spec:
+  # modify replicas according to your case
+  replicas: 3
+  selector:
+    matchLabels:
+      tier: frontend
+  template:
+    metadata:
+      labels:
+        tier: frontend
+    spec:
+      containers:
+        - name: lachyr-wk6-node
+          image: lachyr/nodewebappwk6
+          ports:
+            - containerPort: 3040

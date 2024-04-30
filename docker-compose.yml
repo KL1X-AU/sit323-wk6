@@ -1,0 +1,17 @@
+version: '1'
+
+services:
+  app-1:
+    build: .
+    image: lachyr/nodewebappwk6
+    ports:
+      - '3040:3040'
+    environment:
+      - PORT=3044
+    container_name: week6_app
+    networks:
+      - my-net
+
+networks:
+  my-net:
+    driver: bridge
