@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: lachyr-wk6-service
+  name: lachyr-wk10-service
 spec:
   selector:
     tier: frontend

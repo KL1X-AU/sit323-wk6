@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: lachyr-wk6-replicaset
+  name: lachyr-wk10-replicaset
   labels:
-    app: lachyr-wk6-app
+    app: lachyr-wk10-app
     tier: frontend
 spec:
   # modify replicas according to your case

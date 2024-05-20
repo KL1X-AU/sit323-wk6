@@ -2,7 +2,7 @@
   "dependencies": {
     "express": "^4.19.2"
   },
-  "name": "docker_sit323_wk5",
+  "name": "docker_sit323_wk10",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
